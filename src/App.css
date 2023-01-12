@@ -1,20 +1,17 @@
+:root {
+  --yellow: #FFE15D;
+  --orange: #F49D1A;
+  --red: #DC3535;
+  --bg-black: #282C34;
+}
+
+body {
+  background-color: var(--bg-black);
+}
+
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: var(--bg-black);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -24,15 +21,96 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+input[type="time"]::-webkit-calendar-picker-indicator {
+  display:none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+input[type="time"]:focus-visible {
+  outline: none;
+}
+
+input[type="number"] {
+  font-size: 20px;
+  background: none;
+  margin: 2%;
+
+  color: white;
+  text-align: end;
+  border-radius: 12px;
+
+}
+
+.timer-input {
+  background: none;
+  border-style: none;
+  font-size: 100px;
+  color: var(--yellow);
+}
+
+
+.timer-container {
+  transition: transform ease .3s;
+  opacity: .5;
+}
+
+.timer-container-active {
+  transform: scale(105%);
+  opacity: 1;
+}
+
+.col-info {
+  font-size: 20px;
+  padding: 2%;
+}
+
+.info-title {
+  color: var(--orange);
+}
+
+.col-timers {
+  background-color: #212121;
+  padding: 3%;
+  border-radius: 25px;
+}
+
+.count-input {
+  border: 1px solid var(--red);
+}
+
+.count {
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--red);
+}
+
+img {
+  width: 25vh;
+}
+
+.timer-subtitle {
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 768px) {
+  
+  input[type="number"] {
+    font-size: 20px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .timer-input {
+    font-size: 64px;
+  }
+
+  .col-timers {
+    min-width: 100%;
+    max-width: 100%;
+  }
+
+  img {
+    display: none;
+  }
+
+  #desc-2 {
+    display: none;
   }
 }
