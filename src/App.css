@@ -5,8 +5,9 @@
   --bg-black: #282C34;
 }
 
-body {
+html, body {
   background-color: var(--bg-black);
+  overflow: hidden;
 }
 
 .App {
