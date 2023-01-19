@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/TimerPomodoro/static/css/main.c9c9e668.css",
-    "main.js": "/TimerPomodoro/static/js/main.27c6a550.js",
+    "main.js": "/TimerPomodoro/static/js/main.a2dd545f.js",
     "static/js/787.bd420292.chunk.js": "/TimerPomodoro/static/js/787.bd420292.chunk.js",
     "static/media/long-beep.m4a": "/TimerPomodoro/static/media/long-beep.299ace6d5a9b201f4ac7.m4a",
     "static/media/short-beep.m4a": "/TimerPomodoro/static/media/short-beep.d49d46402468ff53e601.m4a",
     "index.html": "/TimerPomodoro/index.html",
     "main.c9c9e668.css.map": "/TimerPomodoro/static/css/main.c9c9e668.css.map",
-    "main.27c6a550.js.map": "/TimerPomodoro/static/js/main.27c6a550.js.map",
+    "main.a2dd545f.js.map": "/TimerPomodoro/static/js/main.a2dd545f.js.map",
     "787.bd420292.chunk.js.map": "/TimerPomodoro/static/js/787.bd420292.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9c9e668.css",
-    "static/js/main.27c6a550.js"
+    "static/js/main.a2dd545f.js"
   ]
 }
